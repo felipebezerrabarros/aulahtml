@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela HTML</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Cabeçalho -->
+      <thead>
+        <tr>
+          <!-- 1 linha -->
+          <th colspan="4">Usuários</th>
+        </tr>
+        <!-- 2 linha -->
+        <tr>
+          <!-- 3 colunas -->
+          <th>id</th>
+          <th>nome</th>
+          <th>telefone</th>
+          <th>foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 3 linha -->
+        <tr>
+          <td>1</td>
+          <td>felipe</td>
+          <td>85988951440</td>
+          <td>
+            <img
+              src="https://img.freepik.com/fotos-gratis/closeup-tiro-de-uma-linda-borboleta-com-texturas-interessantes-em-uma-flor-de-petalas-de-laranja_181624-7640.jpg?semt=ais_user_personalization&w=740&q=80"
+              alt="foto 1"
+              width="120"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>raimundo</td>
+          <td>85988951440</td>
+          <td>
+            <img
+              src="https://media.istockphoto.com/id/517188688/pt/foto/paisagem-de-montanha.jpg?s=612x612&w=0&k=20&c=uFGUrUT6gA8FrTWhE10YYzngWPlDLssKxJiDs1Qw2Qs="
+              alt="foto 2" width="120"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>julio</td>
+          <td>85988951440</td>
+          <td>
+            <img
+              src="https://media.istockphoto.com/id/517188688/pt/foto/paisagem-de-montanha.jpg?s=612x612&w=0&k=20&c=uFGUrUT6gA8FrTWhE10YYzngWPlDLssKxJiDs1Qw2Qs="
+              alt="foto 3" width="120"
+            />
+          </td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <br />
+    <hr />
+<br>
+    <table>
+      <thead>
+        <tr>
+          <th>Frutas</th>
+          <th>Verduras</th>
+          <th>Grãos</th>
+          <th>...</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maçã</td>
+          <td>Alface</td>
+          <td>Arroz</td>
+          <td rowspan="3">3 linhas</td>
+        </tr>
+        <tr>
+          <td>Laranja</td>
+          <td>Beterraba</td>
+          <td>Trigo</td>
+        </tr>
+        <tr>
+          <td colspan="3">3 colunas</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
