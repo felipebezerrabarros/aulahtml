@@ -1,0 +1,11 @@
+
+/* seletor de tag */
+h1 {
+    color: brown;
+}
+
+
+/* seletor de classe */
+.block {
+    display: block;
+}
